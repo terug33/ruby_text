@@ -54,11 +54,19 @@ when "夏"
 else 
   puts "あんまん"
 end 
-=end
 
 2.times do
   puts "カフェラテ"
   puts "モカ"
   puts "モカ"
 end
+puts "フラペチーノ"
+=end
+
+2.times do 
+  puts "カフェラテ"
+  2.times do 
+    puts "モカ"
+  end 
+end 
 puts "フラペチーノ"

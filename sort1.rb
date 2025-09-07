@@ -1,1 +1,1 @@
-puts [1,3,4].sample(2)
+puts [2,3,6,4].sort

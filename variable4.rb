@@ -8,5 +8,5 @@ class Drink
   end 
 end 
 drink = Drink.new 
-drink.order("コーヒー")
+drink.order "コーヒー"
 puts drink.name
